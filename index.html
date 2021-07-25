@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="weather-box">
+        <form action="#">
+            <input type="text" placeholder="search city..." name="search" data-city-input>
+            <button type="submit" name="btn" data-button><i class="fa fa-search"></i></button>
+        </form>
+        <div class="error" data-error class="error"></div>
+        <div class="city" data-city-name class="city-name">Weather App</div>
+        <div class="weather-icon-container"><img src="" data-icon><br>
+            <p data-weather-name></p>
+        </div>
+        <div class="date" data-date class="date">DATE</div>
+        <hr></hr>
+
+        <div class="current-weather" data-current-weather class="weather-name">weather</div>
+        <div class="current-humidity" data-current-humidity class="weather-name">humidity</div>
+        <div class="current-temperature" data-current-temperature>temperature</div>
+        <div class="wind-speed" data-wind-speed>wind</div>
+    </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
